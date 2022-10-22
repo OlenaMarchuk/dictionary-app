@@ -3,4 +3,11 @@
 }
 .App-header img {
   max-width: 25px;
+  vertical-align: baseline;
+}
+.App-header h4 {
+  font-style: italic;
+}
+footer {
+  margin: 30px 0;
 }

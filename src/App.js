@@ -1,6 +1,7 @@
 import "./App.css";
 import logo from "./logo-book.png";
 import "bootstrap/dist/css/bootstrap.min.css";
+import Dictionary from "./Dictionary";
 
 export default function App() {
   return (
@@ -13,10 +14,12 @@ export default function App() {
           </h1>
           <h4>Make your words meaningful</h4>
         </header>
-
-        <button type="button" className="btn btn-primary">
-          Search
-        </button>
+        <main>
+          <Dictionary />
+        </main>
+        <footer className="text-center">
+          <small>Coded by Olena Marchuk</small>
+        </footer>
       </div>
     </div>
   );
