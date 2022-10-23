@@ -18,7 +18,15 @@ export default function App() {
           <Dictionary />
         </main>
         <footer className="text-center">
-          <small>Coded by Olena Marchuk</small>
+          <small>
+            Coded by Olena Marchuk and is{" "}
+            <a
+              href="https://github.com/OlenaMarchuk/dictionary-app"
+              target="blank"
+            >
+              open-sourced
+            </a>
+          </small>
         </footer>
       </div>
     </div>
