@@ -23,6 +23,7 @@ export default function App() {
             <a
               href="https://github.com/OlenaMarchuk/dictionary-app"
               target="blank"
+              rel="noopener noreferrer"
             >
               open-sourced
             </a>
