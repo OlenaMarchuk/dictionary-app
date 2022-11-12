@@ -7,15 +7,14 @@ export default function App() {
   return (
     <div className="App">
       <div className="container">
-        <header className="App-header mt-3 clearfix">
+        <header className="App-header pt-5 pb-3 clearfix">
           <h1>
             <img src={logo} className="img-fluid " alt="logo" />{" "}
             <span>DICTIONARY</span>
           </h1>
-          <h4>Make your words meaningful</h4>
         </header>
         <main>
-          <Dictionary />
+          <Dictionary defaultedKeyword="hello" />
         </main>
         <footer className="text-center">
           <small>

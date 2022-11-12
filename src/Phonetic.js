@@ -2,7 +2,6 @@ import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faVolumeHigh } from "@fortawesome/free-solid-svg-icons";
 export default function Phonetic(props) {
-  console.log(props.phonetic);
   if (props.phonetic.audio && props.phonetic.text) {
     function pronounsWord(event) {
       let audio = new Audio(props.phonetic.audio);
@@ -15,7 +14,7 @@ export default function Phonetic(props) {
           type="button"
           onClick={pronounsWord}
         />{" "}
-        <span>{props.phonetic.text}</span>
+        <span className="ms-2">{props.phonetic.text}</span>
       </div>
     );
   } else {
