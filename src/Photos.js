@@ -15,7 +15,7 @@ export default function Photos(props) {
                   <img
                     className="img-fluid rounded mb-3"
                     src={photo.src.landscape}
-                    alt="discribing photo"
+                    alt="discribing"
                   />
                 </a>
               </div>
