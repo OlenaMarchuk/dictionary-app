@@ -1,5 +1,9 @@
 .App {
-  background-color: #baedf0;
+  background: linear-gradient(
+    106.5deg,
+    rgba(255, 215, 185, 0.91) 23%,
+    rgba(223, 159, 247, 0.8) 93%
+  );
 }
 .App-header {
   text-align: center;

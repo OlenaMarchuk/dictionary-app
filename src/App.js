@@ -18,13 +18,29 @@ export default function App() {
         </main>
         <footer className="text-center">
           <small>
-            Coded by Olena Marchuk and is{" "}
+            Coded by{" "}
+            <a
+              href="https://www.linkedin.com/in/olena-marchuk-1a1558247/details/experience/"
+              target="blank"
+              rel="noopener noreferrer"
+            >
+              Olena Marchuk
+            </a>{" "}
+            is{" "}
             <a
               href="https://github.com/OlenaMarchuk/dictionary-app"
               target="blank"
               rel="noopener noreferrer"
             >
               open-sourced
+            </a>{" "}
+            and hosted on{" "}
+            <a
+              href="https://lighthearted-nougat-2f8e8d.netlify.app/"
+              target="blank"
+              rel="noopener noreferrer"
+            >
+              Netlify
             </a>
           </small>
         </footer>
